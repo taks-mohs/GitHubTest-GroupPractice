@@ -8,6 +8,7 @@ function MainPage() {
             <MainButton>Main Page</MainButton>
             <MainButton>Second Page</MainButton>
             <MainButton>Third Page</MainButton>
+            <MainButton>Fourth Page</MainButton>
         </View>
     );
 }
