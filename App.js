@@ -13,10 +13,14 @@ export default function App() {
     setPageNum(1);
   }
 
+  function changePageHome() {
+    setPageNum(0);
+  }
+
   let screen = <FirstPage whenPressed={changePageHandler}/>
 
   if(pageNum === 1) {
-    screen = <SecondPage />
+    screen = <SecondPage whenPressed={changePageHome} />
   }
 
   return (
