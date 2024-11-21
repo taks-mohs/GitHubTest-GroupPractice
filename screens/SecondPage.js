@@ -4,7 +4,7 @@ function SecondPage(props) {
   return (
     <View>
       <Text>Second Page</Text>
-      <Text>Change #1</Text>
+      <Text>Test Change after rename repository</Text>
       <Text>Change #2 with more details</Text>
       <MainButton whenPressed={props.homeButtonPressed}>Go back to Main</MainButton>
     </View>
