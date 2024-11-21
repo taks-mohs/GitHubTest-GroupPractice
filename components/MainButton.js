@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Text } from "react-native";
 
 function MainButton(props) {
   return (
-    <Pressable style={styles.container}>
+    <Pressable onPress={props.whenPressed} style={styles.container}>
       <Text>{props.children}</Text>
     </Pressable>
   );
