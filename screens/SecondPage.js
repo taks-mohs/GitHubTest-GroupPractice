@@ -4,7 +4,7 @@ function SecondPage() {
     <View>
       <Text>Second Page</Text>
       <Text>Change #1</Text>
-      <Text>Change #2</Text>
+      <Text>Change #2 with more details</Text>
     </View>
     
   );
