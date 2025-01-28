@@ -6,9 +6,8 @@ function FirstPage(props) {
     return (
         <View style={styles.container}>
             <MainButton>Main Page</MainButton>
-            <MainButton whenPressed={props.changePageHandler} >Second Page</MainButton>
-            <MainButton>Third Page</MainButton>
-            <MainButton>Fourth Page</MainButton>
+            <MainButton whenPressed={props.whenPressed.bind(this,1)}>Second Page</MainButton>
+            <MainButton whenPressed={props.whenPressed.bind(this,2)}>Third Page</MainButton>
         </View>
     );
 }
