@@ -14,11 +14,16 @@ export default MainButton;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#aa2831",
+    backgroundColor: "#2831aa",
     padding: 8,
     margin: 16,
     borderColor: "black",
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    height: 24
   },
+  text: {
+    fontSize: 24,
+    fontColor: 'lightblue'
+  }
 });

@@ -1,7 +1,7 @@
 import { ScrollView, ImageBackground, StyleSheet, Text, View } from "react-native";
 import MainButton from "../components/MainButton";
 
-export default function SecondPage() {
+export default function SecondPage(props) {
   return (
     <View style={styles.container}>
       <ImageBackground style={styles.image} source={require('../assets/pacImage.jpg')} resizeMode='cover'>
@@ -28,6 +28,7 @@ export default function SecondPage() {
             <Text style={styles.text}>More Words</Text>
             <Text style={styles.text}>More Words</Text>
           </View>
+          <MainButton whenPressed={props.whenPressed.bind(this, 0)}>Go back to Main</MainButton>
         </ScrollView>
       </ImageBackground>
     </View>
